@@ -11,6 +11,8 @@
 		3CBD456F2ABDFD6F0068E3F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD456E2ABDFD6F0068E3F9 /* ContentView.swift */; };
 		3CBD45712ABDFD710068E3F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBD45702ABDFD710068E3F9 /* Assets.xcassets */; };
 		3CBD45742ABDFD710068E3F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBD45732ABDFD710068E3F9 /* Preview Assets.xcassets */; };
+		3CBD457B2ABDFDDF0068E3F9 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD457A2ABDFDDF0068E3F9 /* Task.swift */; };
+		3CBD457D2ABDFEC50068E3F9 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBD457C2ABDFEC50068E3F9 /* TaskList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3CBD456E2ABDFD6F0068E3F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3CBD45702ABDFD710068E3F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CBD45732ABDFD710068E3F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CBD457A2ABDFDDF0068E3F9 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3CBD457C2ABDFEC50068E3F9 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				3CBD456E2ABDFD6F0068E3F9 /* ContentView.swift */,
 				3CBD45702ABDFD710068E3F9 /* Assets.xcassets */,
 				3CBD45722ABDFD710068E3F9 /* Preview Content */,
+				3CBD457A2ABDFDDF0068E3F9 /* Task.swift */,
+				3CBD457C2ABDFEC50068E3F9 /* TaskList.swift */,
 			);
 			path = TaskManager;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CBD457D2ABDFEC50068E3F9 /* TaskList.swift in Sources */,
 				3CBD456F2ABDFD6F0068E3F9 /* ContentView.swift in Sources */,
+				3CBD457B2ABDFDDF0068E3F9 /* Task.swift in Sources */,
 				3CBD456D2ABDFD6F0068E3F9 /* TaskManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
